@@ -23,8 +23,8 @@ export default function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<About />}>
-          <Route index element={<Contact />} />
-          <Route path="Portfolio" element={<Portfolio />} />
+          <Route path= "/Contact" element={<Contact />} />
+          <Route path="/Portfolio" element={<Portfolio />} />
           
         </Route>
       </Routes>
